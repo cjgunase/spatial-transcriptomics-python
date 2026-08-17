@@ -1,0 +1,12 @@
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+__pycache__/
+*.py[cod]
+data/
+figures/*.png
+figures/*.pdf
+results/*.csv
+results/*.parquet
+!figures/.gitkeep
+!results/.gitkeep

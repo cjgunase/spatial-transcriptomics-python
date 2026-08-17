@@ -1,0 +1,15 @@
+name: spatial-transcriptomics-demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab>=4
+  - ipykernel>=6
+  - scanpy>=1.10,<2
+  - squidpy>=1.6,<2
+  - anndata>=0.10,<1
+  - pandas>=2,<3
+  - matplotlib>=3.8,<4
+  - seaborn>=0.13,<1
+  - python-igraph>=0.11,<1
+  - leidenalg>=0.10,<1
