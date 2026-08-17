@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Why a Visium spot is not a single cell</title>
+  <desc id="desc">Several cells overlap one capture spot, producing a mixed gene-expression profile assigned to one spatial coordinate.</desc>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#42566f"/></marker><style>.h{font:700 25px Arial;fill:#14213d}.t{font:16px Arial;fill:#42566f}.b{font:700 18px Arial;fill:#14213d}.arr{stroke:#42566f;stroke-width:3;marker-end:url(#a)}</style></defs>
+  <rect width="1200" height="520" rx="24" fill="#f7f9fc"/>
+  <text x="55" y="55" class="h">A Visium spot measures a local mixture—not necessarily one cell</text>
+  <g transform="translate(70 120)">
+    <rect width="300" height="280" rx="18" fill="#fff" stroke="#a8b7c9"/>
+    <text x="150" y="32" text-anchor="middle" class="b">Tissue section</text>
+    <circle cx="92" cy="110" r="46" fill="#a9d8f5" stroke="#3978b9"/><circle cx="92" cy="110" r="13" fill="#3978b9"/>
+    <circle cx="188" cy="108" r="48" fill="#bce8ca" stroke="#32935a"/><circle cx="188" cy="108" r="14" fill="#32935a"/>
+    <circle cx="135" cy="195" r="50" fill="#f8d6a0" stroke="#c78317"/><circle cx="135" cy="195" r="14" fill="#c78317"/>
+    <circle cx="205" cy="207" r="39" fill="#e1cdf7" stroke="#7650b7"/><circle cx="205" cy="207" r="12" fill="#7650b7"/>
+    <circle cx="150" cy="155" r="78" fill="#e84a5f" fill-opacity="0.10" stroke="#bd5267" stroke-width="4" stroke-dasharray="9 7"/>
+    <text x="150" y="264" text-anchor="middle" class="t">One capture spot overlaps cells</text>
+  </g>
+  <line x1="395" y1="260" x2="515" y2="260" class="arr"/>
+  <g transform="translate(535 120)">
+    <rect width="250" height="280" rx="18" fill="#fff" stroke="#a8b7c9"/>
+    <text x="125" y="32" text-anchor="middle" class="b">Captured molecules</text>
+    <rect x="44" y="68" width="162" height="35" rx="8" fill="#a9d8f5"/><text x="125" y="91" text-anchor="middle" class="t">neuronal RNA</text>
+    <rect x="44" y="115" width="130" height="35" rx="8" fill="#bce8ca"/><text x="109" y="138" text-anchor="middle" class="t">glial RNA</text>
+    <rect x="44" y="162" width="185" height="35" rx="8" fill="#f8d6a0"/><text x="136" y="185" text-anchor="middle" class="t">other local RNA</text>
+    <rect x="44" y="216" width="162" height="34" rx="17" fill="#14213d"/><text x="125" y="239" text-anchor="middle" style="font:15px Arial;fill:white">one spatial barcode</text>
+  </g>
+  <line x1="805" y1="260" x2="925" y2="260" class="arr"/>
+  <g transform="translate(945 120)">
+    <rect width="190" height="280" rx="18" fill="#fff" stroke="#a8b7c9"/>
+    <text x="95" y="32" text-anchor="middle" class="b">One data row</text>
+    <text x="30" y="82" class="t">Gene A</text><rect x="30" y="95" width="120" height="16" rx="8" fill="#3978b9"/>
+    <text x="30" y="140" class="t">Gene B</text><rect x="30" y="153" width="75" height="16" rx="8" fill="#32935a"/>
+    <text x="30" y="198" class="t">Gene C</text><rect x="30" y="211" width="145" height="16" rx="8" fill="#c78317"/>
+    <text x="95" y="258" text-anchor="middle" class="t">assigned to (x, y)</text>
+  </g>
+  <text x="600" y="465" text-anchor="middle" style="font:700 17px Arial;fill:#bd5267">Therefore: spot clusters describe spatial expression domains, not automatically pure cell types.</text>
+</svg>

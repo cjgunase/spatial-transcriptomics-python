@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
+  <title id="title">Spatial transcriptomics workflow</title>
+  <desc id="desc">Workflow from experimental design and tissue preparation through sequencing, primary processing, Python analysis, and biological interpretation.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#40536d"/></marker>
+    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.14"/></filter>
+    <style>
+      .title{font:700 28px Arial,sans-serif;fill:#14213d}.sub{font:16px Arial,sans-serif;fill:#40536d}.step{font:700 18px Arial,sans-serif;fill:#14213d}.body{font:14px Arial,sans-serif;fill:#40536d}.num{font:700 16px Arial,sans-serif;fill:white}.arrow{stroke:#40536d;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1400" height="560" rx="24" fill="#f7f9fc"/>
+  <text x="55" y="55" class="title">From tissue to biological insight</text>
+  <text x="55" y="84" class="sub">Each transition changes what the data mean—and introduces different quality risks.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="45" y="140" width="205" height="250" rx="18" fill="#e8f3ff" stroke="#78a9df"/>
+    <circle cx="78" cy="174" r="19" fill="#3978b9"/><text x="73" y="180" class="num">1</text>
+    <text x="65" y="220" class="step">Experimental design</text>
+    <text x="65" y="255" class="body"><tspan x="65">Biological question</tspan><tspan x="65" dy="24">Samples and replicates</tspan><tspan x="65" dy="24">Tissue handling</tspan><tspan x="65" dy="24">Platform and resolution</tspan></text>
+
+    <rect x="320" y="140" width="205" height="250" rx="18" fill="#eaf8ef" stroke="#6dbb88"/>
+    <circle cx="353" cy="174" r="19" fill="#32935a"/><text x="348" y="180" class="num">2</text>
+    <text x="340" y="220" class="step">Spatial capture</text>
+    <text x="340" y="255" class="body"><tspan x="340">Section tissue</tspan><tspan x="340" dy="24">Stain and image</tspan><tspan x="340" dy="24">Capture RNA</tspan><tspan x="340" dy="24">Attach spatial barcodes</tspan></text>
+
+    <rect x="595" y="140" width="205" height="250" rx="18" fill="#fff4df" stroke="#e1a84b"/>
+    <circle cx="628" cy="174" r="19" fill="#c78317"/><text x="623" y="180" class="num">3</text>
+    <text x="615" y="220" class="step">Sequencing</text>
+    <text x="615" y="255" class="body"><tspan x="615">Library molecules</tspan><tspan x="615" dy="24">Gene-derived reads</tspan><tspan x="615" dy="24">Spot barcodes</tspan><tspan x="615" dy="24">UMIs and quality scores</tspan></text>
+
+    <rect x="870" y="140" width="205" height="250" rx="18" fill="#f3ecff" stroke="#9671d1"/>
+    <circle cx="903" cy="174" r="19" fill="#7650b7"/><text x="898" y="180" class="num">4</text>
+    <text x="890" y="220" class="step">Primary processing</text>
+    <text x="890" y="255" class="body"><tspan x="890">Read alignment</tspan><tspan x="890" dy="24">Gene assignment</tspan><tspan x="890" dy="24">UMI counting</tspan><tspan x="890" dy="24">Image registration</tspan></text>
+
+    <rect x="1145" y="140" width="205" height="250" rx="18" fill="#ffecef" stroke="#db7e8e"/>
+    <circle cx="1178" cy="174" r="19" fill="#bd5267"/><text x="1173" y="180" class="num">5</text>
+    <text x="1165" y="220" class="step">Python analysis</text>
+    <text x="1165" y="255" class="body"><tspan x="1165">QC and normalization</tspan><tspan x="1165" dy="24">Clustering and markers</tspan><tspan x="1165" dy="24">Spatial statistics</tspan><tspan x="1165" dy="24">Biological validation</tspan></text>
+  </g>
+  <path d="M250 265 H307" class="arrow"/><path d="M525 265 H582" class="arrow"/><path d="M800 265 H857" class="arrow"/><path d="M1075 265 H1132" class="arrow"/>
+  <rect x="255" y="448" width="890" height="68" rx="34" fill="#14213d"/>
+  <text x="700" y="477" text-anchor="middle" style="font:700 18px Arial,sans-serif;fill:white">The final product is not just a plot</text>
+  <text x="700" y="501" text-anchor="middle" style="font:15px Arial,sans-serif;fill:#dce7f7">It is a defensible link between molecules, tissue location, experimental design, and biology.</text>
+</svg>

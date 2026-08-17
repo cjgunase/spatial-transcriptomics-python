@@ -13,10 +13,13 @@ autocorrelated genes with Moran's I.
 
 ## Start here
 
-The main tutorial is
-[`notebooks/01_visium_spatial_analysis.ipynb`](notebooks/01_visium_spatial_analysis.ipynb).
-It is written for someone with basic Python knowledge and includes explanations,
-interpretation prompts, an exercise, and a short knowledge check.
+Begin with
+[`notebooks/00_spatial_transcriptomics_pipeline.ipynb`](notebooks/00_spatial_transcriptomics_pipeline.ipynb)
+for a no-code, diagram-based explanation of the complete path from tissue to a
+biological conclusion. Then work through
+[`notebooks/01_visium_spatial_analysis.ipynb`](notebooks/01_visium_spatial_analysis.ipynb)
+for the first Python analysis. Both lessons include interpretation prompts,
+exercises, and short knowledge checks.
 
 ## What this demonstrates
 
@@ -53,10 +56,11 @@ Open the notebook and choose **Kernel → Restart Kernel and Run All Cells**.
 
 ## Learning path
 
-1. **Current:** one Visium section—data structure, QC, spatial graphs, Moran's I.
-2. **Next:** start from raw counts and justify filtering and normalization.
-3. **Then:** annotate regions using marker genes and differential expression.
-4. **Later:** compare samples, integrate a single-cell reference, and turn stable
+1. **Notebook 00:** the entire experimental and computational pipeline.
+2. **Notebook 01:** one processed Visium section—data structure, QC, spatial graphs, Moran's I.
+3. **Next:** start from raw counts and justify filtering and normalization.
+4. **Then:** annotate regions using marker genes and differential expression.
+5. **Later:** compare samples, integrate a single-cell reference, and turn stable
    steps into a workflow.
 
 This intentionally starts as a notebook, not a production pipeline. A production
